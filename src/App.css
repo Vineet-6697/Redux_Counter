@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-color: lightgray;
+}
+.container{
+ width: 50%;
+ height: 300px;
+  border: 1px solid black ;
+  background-color: darkgray;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  
+}
+.container h1, h4, .quantity{
+  display: flex;
+  justify-content: center;
+  
+}
+a{
+  cursor: pointer;
+}
+
+
+.quantity__minus, .quantity__plus {
+  background-color: purple;
+  height: 30px;
+  width: 30px;
+}
+ .quantity__plus > span{
+  font-size: larger;
+  font-weight: 800;
+ margin-left: 10px;
+  color: white;
+  
+}
+.quantity__minus > span{
+  font-size: larger;
+  font-weight: 800;
+ margin-left: 10px;
+  color: white;
+  
+}
